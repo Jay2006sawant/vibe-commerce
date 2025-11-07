@@ -165,8 +165,46 @@ POST /api/checkout
 
 ## Screenshots
 
-_Add screenshots here after running the application_
+### 1. Products Page with Fake Store API
 
+The products page displays a grid of items with images, descriptions, and prices. Users can toggle between mock products and Fake Store API products using the checkbox.
+
+
+<img width="1212" height="1039" alt="Screenshot 2025-11-08 003129" src="https://github.com/user-attachments/assets/ae5c3668-721b-4784-b107-689e28dd41a4" />
+
+**Features shown:**
+- Product grid with images and details
+- "Use Fake Store API" toggle enabled
+- Add to Cart buttons for each product
+- Cart badge showing item count in navigation
+
+### 2. Shopping Cart Page
+
+The cart page shows all items added to the cart with quantity controls, individual item totals, and a grand total.
+
+
+<img width="1520" height="578" alt="Screenshot 2025-11-08 003204" src="https://github.com/user-attachments/assets/e78c28dd-0715-4325-b107-de7433fef55a" />
+
+**Features shown:**
+- Cart items with product names and prices
+- Quantity controls (+/- buttons)
+- Individual item subtotals
+- Grand total calculation
+- Remove item functionality
+- Proceed to Checkout button
+
+### 3. Order Receipt Modal
+
+After completing checkout, users receive a detailed receipt with order information, customer details, and purchase summary.
+
+<img width="1757" height="1031" alt="Screenshot 2025-11-08 003231" src="https://github.com/user-attachments/assets/b9da3c51-d583-4f26-a905-d96ac5fb14c4" />
+
+**Features shown:**
+- Order ID and timestamp
+- Customer information (name and email)
+- Itemized list of purchased items
+- Total amount
+- Success confirmation message
 ## Demo Video
 
 _Link to demo video will be added here_
